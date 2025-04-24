@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="bg-dark text-secondary px-4 py-5 text-center">
+    <div class="py-5">
+        <h1 class="display-5 fw-bold text-white">Cafe Locations:</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="fs-5 mb-4">Below is a list of cafes that include their locations, pictures, and amenities
+                available at that location.</p>
+        </div>
+    </div>
+</div>
+<div class="album py-5 bg-light">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        {% for cafe in cafes: %}
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="{{ cafe.img_url }}" class="bd-placeholder-img card-img-top" width="100%" height="225">
+
+                    <div class="card-body">
+                        <h5 class="card-text">{{ cafe.name }}</h5>
+                        <hr>
+                        <h6>Amenities:</h6>
+                        <ul>
+                            {% if cafe.has_sockets: %}
+                            <li class="card-text">Extra sockets: ✅</li>
+                            {% else: %}
+                            <li class="card-text">Extra sockets: ❌</li>
+                            {% endif %}
+                            {% if cafe.has_toilet: %}
+                            <li class="card-text">Toilets: ✅</li>
+                            {% else: %}
+                            <li class="card-text">Toilets: ❌</li>
+                            {% endif %}
+                            {% if cafe.has_wifi: %}
+                            <li class="card-text">WiFi: ✅</li>
+                            {% else: %}
+                            <li class="card-text">WiFi: ❌</li>
+                            {% endif %}
+                            {% if cafe.can_take_calls: %}
+                            <li class="card-text">Take Calls: ✅</li>
+                            {% else: %}
+                            <li class="card-text">Take Calls: ❌</li>
+                            {% endif %}
+                            <li class="card-text">Seats: {{ cafe.seats }}</li>
+                            <li class="card-text">Coffee Price: {{ cafe.coffee_price }}</li>
+                        </ul>
+                        <div class="float-end">
+                            <div class="btn-group">
+                                <a href="{{ cafe.map_url }}" target="_blank" class="btn btn-sm btn-outline-secondary"><small class="text-muted">({{ cafe.location }})</small> - Map</a>
+                            </div>
+                        </div>
+                        <div class="float-start">
+                            <div class="btn-group">
+                                <a href="/delete/{{ cafe.id }}" class="btn btn-sm btn-outline-secondary">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

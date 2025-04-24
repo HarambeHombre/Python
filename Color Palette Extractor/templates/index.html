@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Palette Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+    </style>
+</head>
+<body>
+    <main>
+
+    <div class="container col-12 px-4 py-5">
+        <div class="row align-items-center mb-3">
+            <div class="col-12 ">
+                <div class="b-example-divider row ">
+                    <h3 class="text-start pt-2 col-6 fw-bold text-body-emphasis lh-1">Color Palette Extractor</h3>
+                    <form method="POST" class="text-end col-6" enctype="multipart/form-data">
+                    <input class="pt-2" style="width:210px;" name="the_file" id="the_file" type="file"><button type="submit" class="btn btn-primary btn-sm m-2">Extract</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-5">
+              <h4 class="fw-bold text-body-emphasis lh-1 mb-2">Source</h4>
+          </div>
+          <div class="col-7">
+              <h4 class="fw-bold text-body-emphasis lh-1 mb-2 text-center">Palette(rgb)</h4>
+          </div>
+        </div>
+        <div class="row g-5">
+            <div class="col-5">
+                <img src="{{ image }}" class="d-block mx-lg-auto img-fluid" alt="Uploaded image" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-7">
+                <div class="row gap-2 d-md-flex justify-content-md-center">
+                  {% for color in palette: %}
+                  <div class="card col-4 m-1 py-3 text-center rounded-pill" style="height: 150px; width:150px; background-color: rgb{{ color }};" aria-hidden="true">
+                      <strong class="bg-secondary rounded-pill p-1 mt-5 text-white" style="--bs-bg-opacity: .5;">{{ color }}</strong>
+                  </div>
+                  {% endfor %}
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
