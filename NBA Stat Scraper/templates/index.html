@@ -1,0 +1,2992 @@
+<!DOCTYPE html>
+<html data-build="17143" data-version="4.51.0" lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <link href="https://www.nba.com/stats/site-manifest.json" rel="manifest"/>
+  <meta content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" name="viewport"/>
+  <script src="https://www.nba.com/stats/newrelic/newrelic-prod.js">
+  </script>
+  <script id="theme-loader" src="https://www.nba.com/stats/theme-loader.js">
+  </script>
+  <title>
+   Official NBA Stats | Stats | NBA.com
+  </title>
+  <meta content="Home of the Official NBA Advanced Statistics and Analytics." name="description"/>
+  <link href="https://www.nba.com/stats/favicon.ico" rel="icon"/>
+  <link href="https://www.nba.com/stats/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="https://www.nba.com/stats/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+  <link href="https://www.nba.com/stats/apple-touch-icon.png" rel="apple-touch-icon"/>
+  <link href="https://www.nba.com/stats/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link href="https://www.nba.com/stats/apple-touch-icon.png" rel="apple-touch-icon" sizes="120x120"/>
+  <link href="https://www.nba.com/stats/apple-touch-icon.png"/>
+  <meta content="#da532c" name="msapplication-TileColor"/>
+  <link color="#051c2d" href="https://www.nba.com/stats/safari-pinned-tab.svg" rel="mask-icon"/>
+  <meta content="16" name="next-head-count"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link as="style" href="https://www.nba.com/stats/_next/static/css/ca09f40369912838.css" rel="preload"/>
+  <link data-n-g="" href="https://www.nba.com/stats/_next/static/css/ca09f40369912838.css" rel="stylesheet"/>
+  <link as="style" href="https://www.nba.com/stats/_next/static/css/34a5d3354b159bff.css" rel="preload"/>
+  <link data-n-p="" href="https://www.nba.com/stats/_next/static/css/34a5d3354b159bff.css" rel="stylesheet"/>
+  <link as="style" href="https://www.nba.com/stats/_next/static/css/27e161ce4c0fe858.css" rel="preload"/>
+  <link data-n-p="" href="https://www.nba.com/stats/_next/static/css/27e161ce4c0fe858.css" rel="stylesheet"/>
+  <noscript data-n-css="">
+  </noscript>
+  <script defer="" nomodule="" src="https://www.nba.com/stats/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js">
+  </script>
+  <script defer="" src="https://www.nba.com/stats/_next/static/chunks/webpack-4e950801b12e21f6.js">
+  </script>
+  <script defer="" src="https://www.nba.com/stats/_next/static/chunks/framework-6a24ea55bfe2d3c0.js">
+  </script>
+  <script defer="" src="https://www.nba.com/stats/_next/static/chunks/main-878323283d90b24a.js">
+  </script>
+  <script defer="" src="https://www.nba.com/stats/_next/static/chunks/pages/_app-33f7ffa6162e7065.js">
+  </script>
+  <script defer="" src="https://www.nba.com/stats/_next/static/chunks/33907-5d11dce992822776.js">
+  </script>
+  <script defer="" src="https://www.nba.com/stats/_next/static/chunks/21877-0c63586713bcbe08.js">
+  </script>
+  <script defer="" src="https://www.nba.com/stats/_next/static/chunks/9066-f4160f2aef0823c1.js">
+  </script>
+  <script defer="" src="https://www.nba.com/stats/_next/static/chunks/69701-9067a1704db0f0bc.js">
+  </script>
+  <script defer="" src="https://www.nba.com/stats/_next/static/chunks/73815-3099ed995f1b96fa.js">
+  </script>
+  <script defer="" src="https://www.nba.com/stats/_next/static/chunks/97955-aa613550eea95a66.js">
+  </script>
+  <script defer="" src="https://www.nba.com/stats/_next/static/chunks/pages/stats-b5ed83970f79a9f6.js">
+  </script>
+  <script defer="" src="https://www.nba.com/stats/_next/static/b02IEPqxZ0y-px1JNxnyJ/_buildManifest.js">
+  </script>
+  <script defer="" src="https://www.nba.com/stats/_next/static/b02IEPqxZ0y-px1JNxnyJ/_ssgManifest.js">
+  </script>
+  <style data-href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900|Roboto+Condensed:400,700|Roboto+Slab:400,700&amp;display=swap">
+   @font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fBBc-.woff) format('woff')}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxM.woff) format('woff')}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBBc-.woff) format('woff')}@font-face{font-family:'Roboto';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtfBBc-.woff) format('woff')}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotocondensed/v27/ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyWyosBO5Xo.woff) format('woff')}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/robotocondensed/v27/ieVo2ZhZI2eCN5jzbjEETS9weq8-_d6T_POl0fRJeyVVpcBO5Xo.woff) format('woff')}@font-face{font-family:'Roboto Slab';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rl.woff) format('woff')}@font-face{font-family:'Roboto Slab';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rl.woff) format('woff')}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Roboto';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtfCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Roboto';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtfABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtfCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtfBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtfCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtfChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto';font-style:normal;font-weight:900;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtfBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19-7DQk6YvNkeg.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19a7DQk6YvNkeg.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-1967DQk6YvNkeg.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19G7DQk6YvNkeg.woff2) format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-1927DQk6YvNkeg.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19y7DQk6YvNkeg.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQk6YvM.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19-7DQk6YvNkeg.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19a7DQk6YvNkeg.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-1967DQk6YvNkeg.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19G7DQk6YvNkeg.woff2) format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-1927DQk6YvNkeg.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19y7DQk6YvNkeg.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/robotocondensed/v27/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQk6YvM.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Roboto Slab';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufA5qWr4xCCQ_k.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Roboto Slab';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufJ5qWr4xCCQ_k.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto Slab';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufB5qWr4xCCQ_k.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto Slab';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufO5qWr4xCCQ_k.woff2) format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}@font-face{font-family:'Roboto Slab';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufC5qWr4xCCQ_k.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto Slab';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufD5qWr4xCCQ_k.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto Slab';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Roboto Slab';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufA5qWr4xCCQ_k.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C8A,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Roboto Slab';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufJ5qWr4xCCQ_k.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto Slab';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufB5qWr4xCCQ_k.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto Slab';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufO5qWr4xCCQ_k.woff2) format('woff2');unicode-range:U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF}@font-face{font-family:'Roboto Slab';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufC5qWr4xCCQ_k.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto Slab';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufD5qWr4xCCQ_k.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto Slab';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/robotoslab/v34/BngMUXZYTXPIvIBgJJSb6ufN5qWr4xCC.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+  </style>
+ </head>
+ <body>
+  <div id="__next">
+   <div data-esi="true" style="display:none">
+    <div>
+     <script>
+      var _esi = {
+        country: "US",
+        tz: "PST",
+        region: "CA",
+        browser: "OTHER",
+        os: "OTHER",
+        device: "computer",
+        isMobile: "false",
+        isDomestic: "true",
+        ip: "98.148.42.216"
+      };
+     </script>
+    </div>
+   </div>
+   <div class="Layout_base__6IeUC Layout_justNav__2H4H0 Layout_withSubNav__ByKRF" data-with-subnav-banner="false">
+    <div class="Layout_mainContent__jXliI">
+     <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nba.com"},{"@type":"ListItem","position":2,"name":"Stats","item":"https://www.nba.com/stats"}]}
+     </script>
+
+     <div class="MaxWidthContainer_mwc__ID5AG" data-ad-slot="false" data-max-width="xl" data-padding="true">
+      <div class="Columns_col__wZTNG">
+       <div class="Columns_left__XkWXE">
+        <section class="Block_block__62M07" data-has-ad-container="true" data-has-carousel="false" data-has-container="true" data-has-logo="false" data-has-nested-blocks="false" data-has-title="true" data-is-nested-block="false">
+         <div class="Block_blockContent__6iJ_n">
+
+          <div class="LeaderBoardWithButtons_lbwbCardWrapper__re1TJ">
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ LeaderBoardWithButtons_lbwbCardGrid__Iqg6m LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <h2 class="LeaderBoardCard_lbcTitle___WI9J">
+             Points
+            </h2>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoardPlayerCard_lbpc__UG8WY" data-show-padding="true" data-show-team="true">
+             <table class="LeaderBoardPlayerCard_lbpcTable__q3iZD">
+              <tbody>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1628991/">
+                  Jaren Jackson Jr.
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  MEM
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400191/box-score">
+                  39
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 2
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1630162/">
+                  Anthony Edwards
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  MIN
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400193/box-score">
+                  37
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 3
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1629027/">
+                  Trae Young
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  ATL
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400185/box-score">
+                  35
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 4
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1628369/">
+                  Jayson Tatum
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  BOS
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400187/box-score">
+                  33
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 5
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1626157/">
+                  Karl-Anthony Towns
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  NYK
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400189/box-score">
+                  32
+                 </a>
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ LeaderBoardWithButtons_lbwbCardGrid__Iqg6m LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <h2 class="LeaderBoardCard_lbcTitle___WI9J">
+             Rebounds
+            </h2>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoardPlayerCard_lbpc__UG8WY" data-show-padding="true" data-show-team="true">
+             <table class="LeaderBoardPlayerCard_lbpcTable__q3iZD">
+              <tbody>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1631217/">
+                  Moussa Diabate
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  CHA
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400184/box-score">
+                  15
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/203497/">
+                  Rudy Gobert
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  MIN
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400193/box-score">
+                  15
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1627826/">
+                  Ivica Zubac
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  LAC
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400196/box-score">
+                  15
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 4
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1628386/">
+                  Jarrett Allen
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  CLE
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400188/box-score">
+                  12
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 4
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/203507/">
+                  Giannis Antetokounmpo
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  MIL
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400189/box-score">
+                  12
+                 </a>
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ LeaderBoardWithButtons_lbwbCardGrid__Iqg6m LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <h2 class="LeaderBoardCard_lbcTitle___WI9J">
+             Assists
+            </h2>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoardPlayerCard_lbpc__UG8WY" data-show-padding="true" data-show-team="true">
+             <table class="LeaderBoardPlayerCard_lbpcTable__q3iZD">
+              <tbody>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/203999/">
+                  Nikola Jokić
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  DEN
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400194/box-score">
+                  14
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 2
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1630595/">
+                  Cade Cunningham
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  DET
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400185/box-score">
+                  13
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 2
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/2544/">
+                  LeBron James
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  LAL
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400195/box-score">
+                  13
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 2
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1629027/">
+                  Trae Young
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  ATL
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400185/box-score">
+                  13
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 5
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1626164/">
+                  Devin Booker
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  PHX
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400190/box-score">
+                  12
+                 </a>
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ LeaderBoardWithButtons_lbwbCardGrid__Iqg6m LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <h2 class="LeaderBoardCard_lbcTitle___WI9J">
+             Blocks
+            </h2>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoardPlayerCard_lbpc__UG8WY" data-show-padding="true" data-show-team="true">
+             <table class="LeaderBoardPlayerCard_lbpcTable__q3iZD">
+              <tbody>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/203076/">
+                  Anthony Davis
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  LAL
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400195/box-score">
+                  4
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1629637/">
+                  Jaxson Hayes
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  LAL
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400195/box-score">
+                  4
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1630643/">
+                  Jay Huff
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  MEM
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400191/box-score">
+                  4
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 4
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1631217/">
+                  Moussa Diabate
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  CHA
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400184/box-score">
+                  3
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 4
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/203497/">
+                  Rudy Gobert
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  MIN
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400193/box-score">
+                  3
+                 </a>
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ LeaderBoardWithButtons_lbwbCardGrid__Iqg6m LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <h2 class="LeaderBoardCard_lbcTitle___WI9J">
+             Steals
+            </h2>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoardPlayerCard_lbpc__UG8WY" data-show-padding="true" data-show-team="true">
+             <table class="LeaderBoardPlayerCard_lbpcTable__q3iZD">
+              <tbody>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1630700/">
+                  Dyson Daniels
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  ATL
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400185/box-score">
+                  7
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 2
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/203484/">
+                  Kentavious Caldwell-Pope
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  ORL
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400186/box-score">
+                  4
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 2
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1642267/">
+                  Carlton Carrington
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  WAS
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400191/box-score">
+                  4
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 2
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1641764/">
+                  Brandin Podziemski
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  GSW
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400188/box-score">
+                  4
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 2
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1626196/">
+                  Josh Richardson
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  MIA
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400194/box-score">
+                  4
+                 </a>
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ LeaderBoardWithButtons_lbwbCardGrid__Iqg6m LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <h2 class="LeaderBoardCard_lbcTitle___WI9J">
+             Turnovers
+            </h2>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoardPlayerCard_lbpc__UG8WY" data-show-padding="true" data-show-team="true">
+             <table class="LeaderBoardPlayerCard_lbpcTable__q3iZD">
+              <tbody>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1630595/">
+                  Cade Cunningham
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  DET
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400185/box-score">
+                  7
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1628368/">
+                  De'Aaron Fox
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  SAC
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400196/box-score">
+                  7
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/201935/">
+                  James Harden
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  LAC
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400196/box-score">
+                  7
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 4
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1641739/">
+                  Toumani Camara
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  POR
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400193/box-score">
+                  6
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 4
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/201939/">
+                  Stephen Curry
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  GSW
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400188/box-score">
+                  6
+                 </a>
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ LeaderBoardWithButtons_lbwbCardGrid__Iqg6m LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <h2 class="LeaderBoardCard_lbcTitle___WI9J">
+             Three Pointers Made
+            </h2>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoardPlayerCard_lbpc__UG8WY" data-show-padding="true" data-show-team="true">
+             <table class="LeaderBoardPlayerCard_lbpcTable__q3iZD">
+              <tbody>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1630162/">
+                  Anthony Edwards
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  MIN
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400193/box-score">
+                  9
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 2
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1641706/">
+                  Brandon Miller
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  CHA
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400184/box-score">
+                  7
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 3
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1629636/">
+                  Darius Garland
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  CLE
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400188/box-score">
+                  6
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 3
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1630559/">
+                  Austin Reaves
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  LAL
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400195/box-score">
+                  6
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 3
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1629130/">
+                  Duncan Robinson
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  MIA
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400194/box-score">
+                  6
+                 </a>
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ LeaderBoardWithButtons_lbwbCardGrid__Iqg6m LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <h2 class="LeaderBoardCard_lbcTitle___WI9J">
+             Free Throws Made
+            </h2>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoardPlayerCard_lbpc__UG8WY" data-show-padding="true" data-show-team="true">
+             <table class="LeaderBoardPlayerCard_lbpcTable__q3iZD">
+              <tbody>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/201935/">
+                  James Harden
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  LAC
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400196/box-score">
+                  9
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1631096/">
+                  Chet Holmgren
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  OKC
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400192/box-score">
+                  9
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1630596/">
+                  Evan Mobley
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  CLE
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400188/box-score">
+                  9
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 4
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/203076/">
+                  Anthony Davis
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  LAL
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400195/box-score">
+                  7
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 4
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/201142/">
+                  Kevin Durant
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  PHX
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400190/box-score">
+                  7
+                 </a>
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ LeaderBoardWithButtons_lbwbCardGrid__Iqg6m LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <h2 class="LeaderBoardCard_lbcTitle___WI9J">
+             Fantasy Points
+            </h2>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoardPlayerCard_lbpc__UG8WY" data-show-padding="true" data-show-team="true">
+             <table class="LeaderBoardPlayerCard_lbpcTable__q3iZD">
+              <tbody>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/203999/">
+                  Nikola Jokić
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  DEN
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400194/box-score">
+                  65.2
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 2
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/2544/">
+                  LeBron James
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  LAL
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400195/box-score">
+                  61.9
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 3
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1629027/">
+                  Trae Young
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  ATL
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400185/box-score">
+                  59.9
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 4
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1628369/">
+                  Jayson Tatum
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  BOS
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400187/box-score">
+                  58.8
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td class="LeaderBoardPlayerCard_lbpcTableCell__SnM1o">
+                 5
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1630595/">
+                  Cade Cunningham
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  DET
+                 </span>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400185/box-score">
+                  53.7
+                 </a>
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+          </div>
+         </div>
+        </section>
+        <section class="Block_block__62M07 BeyondTheNumbers_base__JzYDG" data-has-ad-container="false" data-has-carousel="false" data-has-container="true" data-has-logo="false" data-has-nested-blocks="false" data-has-title="false" data-is-nested-block="false">
+         <div class="Block_blockContent__6iJ_n">
+          <div class="BeyondTheNumbers_inner__vnlvc">
+           <div class="BeyondTheNumbers_top__eQRzT">
+            <h1 class="BeyondTheNumbers_title__OpckF">
+             Beyond the Numbers
+            </h1>
+           </div>
+           <div class="BeyondTheNumbers_bot__DtsCc">
+            <div class="BeyondTheNumbers_btncontent__Gb1C_">
+             <div>
+              <a class="Anchor_anchor__cSc3P BeyondTheNumbers_btnlink__tHj2o" data-has-children="true" data-has-more="false" data-is-external="false" href="/news/what-is-the-dunk-score">
+               <img alt="" class="BeyondTheNumbers_image__E0MkI" loading="lazy" src="https://stats-prod.nba.com/wp-content/uploads/sites/65/2024/10/edwards-dunk-1080-2089842811.jpg"/>
+               <h2 class="BeyondTheNumbers_btntitle__9dpHm">
+                Introducing The Dunk Score
+               </h2>
+              </a>
+             </div>
+            </div>
+            <div class="BeyondTheNumbers_contentContainer__tIVN_">
+             <div class="content">
+              <div class="teaser">
+               The Dunk Score combines player tracking technology with NBA data science to analyze every dunk from every NBA game in real time. Anthony Edwards posted the highest dunk score last season (124.4) with his poster dunk against the Jazz in Utah.
+               <br/>
+               <br/>
+               <div class="stats">
+               </div>
+               <div class="links">
+                <ul>
+                 <li>
+                  <a href="https://www.nba.com/news/what-is-the-dunk-score">
+                   What Is The Dunk Score?
+                  </a>
+                 </li>
+                 <li>
+                  <a href="https://www.nba.com/news/a-deep-dive-into-how-nba-dunk-score-is-calculated">
+                   How New NBA Dunk Score Is Calculated
+                  </a>
+                 </li>
+                 <li>
+                  <a href="https://www.youtube.com/watch?v=ga-rCTM_vgc&amp;t=970s">
+                   Edwards' Poster Dunk Leads Top 100 Dunks
+                  </a>
+                 </li>
+                </ul>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <a class="Anchor_anchor__cSc3P BeyondTheNumbers_seeAll__l9v1n Link_styled__okbXW" data-has-children="true" data-has-more="false" data-is-external="false" href="/stats/featuredarchive">
+            See all Articles
+           </a>
+          </div>
+         </div>
+        </section>
+        <section class="Block_block__62M07" data-has-ad-container="false" data-has-carousel="false" data-has-container="true" data-has-logo="false" data-has-nested-blocks="false" data-has-title="false" data-is-nested-block="false">
+         <div class="Block_blockContent__6iJ_n">
+          <div class="AssistTracker_main__Oz93z">
+           <div class="AssistTracker_top__ueNQx">
+            <div class="AssistTracker_moduleTitle__IwMmC">
+             <h1 class="AssistTracker_moduleHeader___omrS">
+              State Farm® Assist Tracker
+             </h1>
+            </div>
+            <div class="AssistTracker_moduleBanner__0oijY">
+             <img alt="statefarm logo" class="AssistTracker_moduleLogo__twlCo" loading="lazy" src="https://cdn.nba.com/next/stats/statefarm.svg"/>
+            </div>
+            <h1 class="AssistTracker_title__RYGl7">
+             Assist Tracker
+            </h1>
+           </div>
+           <div class="AssistTracker_bot__ZuwkV">
+            <div class="AssistTracker_assists__e6k_K">
+             <p class="AssistTracker_count__XzkKO">
+              7,022
+             </p>
+             <p class="AssistTracker_assistText__LDWP1">
+              Total Assists This Season
+             </p>
+            </div>
+            <div class="AssistTracker_player__MjLQ3">
+             <div class="AssistTracker_imageLink__4akbh">
+              <a class="Anchor_anchor__cSc3P" data-has-children="true" data-has-more="false" data-is-external="false" href="/stats/player/1629029/" title="Luka Dončić: 15 Assists">
+               <img alt="undefined Headshot" class="PlayerImage_image__wH_YX AssistTracker_playerImage__wHhQA PlayerImage_round__bIjPr" loading="lazy" src="https://cdn.nba.com/headshots/nba/latest/260x190/1629029.png"/>
+              </a>
+              <p class="AssistTracker_matchup__EAlMk">
+               11/4/24 - DAL vs. IND
+              </p>
+             </div>
+             <div class="AssistTracker_uhm__5KMbO">
+              <p class="AssistTracker_playerTitle__pZLmP">
+               Luka Dončić: 15 Assists
+              </p>
+              <p class="AssistTracker_editorial__dABsS">
+               Dončić led all players in assists on Monday with a season-high 15 dimes to go with 34 points in Dallas' 134-127 loss to Indiana. It was his 16th game with at least 30 points and 15 assists – the fourth most in NBA history. Next on the list is Magic Johnson with 19 such games.
+              </p>
+              <p class="AssistTracker_moreLink__0L6m6">
+               <a class="Anchor_anchor__cSc3P Link_styled__okbXW" data-has-children="true" data-has-more="false" data-is-external="false" href="/game/0022400165/">
+                View Video Box Score
+               </a>
+              </p>
+             </div>
+            </div>
+            <div class="AssistTracker_promo__S2J9G">
+             <p class="AssistTracker_cares__1W4ox">
+              #NBACares
+             </p>
+             <p>
+              State Farm believes in the power of the assist - both on and off the court. That's why we're turning every on-the-court assist into real-life assists in communities across America. State Farm and the NBA are teaming up to donate $5 to neighborhoods in need for every assist this season.
+             </p>
+             <p class="AssistTracker_sponserImage__ABszA">
+              <img alt="nbacares logo" class="AssistTracker_caresLogo__3vUw_" loading="lazy" src="https://cdn.nba.com/next/stats/nba-cares.svg"/>
+             </p>
+            </div>
+           </div>
+          </div>
+         </div>
+        </section>
+        <section class="Block_block__62M07" data-has-ad-container="true" data-has-carousel="false" data-has-container="true" data-has-logo="false" data-has-nested-blocks="false" data-has-title="true" data-is-nested-block="false">
+         <div class="Block_blockContent__6iJ_n">
+          <div class="Block_titleContainerBetween__0GYet">
+           <div class="Block_flexAd__oXSF4">
+            <h1 class="Block_blockTitleText__tX1TF">
+             Teams
+            </h1>
+           </div>
+           <div class="Block_blockAd__1Q_77">
+            <a class="Anchor_anchor__cSc3P Block_blockTitleLink___pjNR" data-has-children="false" data-has-more="true" data-is-external="false" href="/stats/teams/traditional/?DateFrom=11/08/2024&amp;DateTo=11/08/2024&amp;PerMode=Totals&amp;sort=PTS&amp;dir=-1">
+             See All Teams Stats
+            </a>
+           </div>
+          </div>
+          <div class="ButtonGroup_bg__4UoZJ w-full flex mx-auto mb-3">
+           <button class="ButtonGroup_btn__r075w" data-active="true" type="button">
+            Yesterday’s Leaders
+           </button>
+           <button class="ButtonGroup_btn__r075w" data-active="false" type="button">
+            SEASON LEADERS
+           </button>
+          </div>
+          <div class="LeaderBoardWithButtons_lbwbWrapper__lH_oU">
+           <span class="LeaderBoardWithButtons_lbwbDate__gsMEu">
+            11/08/2024
+           </span>
+          </div>
+          <div class="LeaderBoardWithButtons_lbwbCardWrapper__re1TJ">
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ LeaderBoardWithButtons_lbwbCardGrid__Iqg6m LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <h2 class="LeaderBoardCard_lbcTitle___WI9J">
+             Points
+            </h2>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoadTeamCard_lbtc__UM1T5" data-show-padding="true">
+             <table class="LeaderBoadTeamCard_lbtcTable__gmmZz">
+              <tbody>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612739/">
+                  Cleveland Cavaliers
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 136
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 2
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612743/">
+                  Denver Nuggets
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 135
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 3
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612763/">
+                  Memphis Grizzlies
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 128
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 4
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612750/">
+                  Minnesota Timberwolves
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 127
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 5
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612760/">
+                  Oklahoma City Thunder
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 126
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ LeaderBoardWithButtons_lbwbCardGrid__Iqg6m LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <h2 class="LeaderBoardCard_lbcTitle___WI9J">
+             Rebounds
+            </h2>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoadTeamCard_lbtc__UM1T5" data-show-padding="true">
+             <table class="LeaderBoadTeamCard_lbtcTable__gmmZz">
+              <tbody>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612766/">
+                  Charlotte Hornets
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 56
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 2
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612751/">
+                  Brooklyn Nets
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 51
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 3
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612763/">
+                  Memphis Grizzlies
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 50
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 4
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612750/">
+                  Minnesota Timberwolves
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 49
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 5
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612745/">
+                  Houston Rockets
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 48
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ LeaderBoardWithButtons_lbwbCardGrid__Iqg6m LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <h2 class="LeaderBoardCard_lbcTitle___WI9J">
+             Assists
+            </h2>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoadTeamCard_lbtc__UM1T5" data-show-padding="true">
+             <table class="LeaderBoadTeamCard_lbtcTable__gmmZz">
+              <tbody>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612743/">
+                  Denver Nuggets
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 37
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 2
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612752/">
+                  New York Knicks
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 35
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 3
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612739/">
+                  Cleveland Cavaliers
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 33
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 3
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612748/">
+                  Miami Heat
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 33
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 5
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612744/">
+                  Golden State Warriors
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 32
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ LeaderBoardWithButtons_lbwbCardGrid__Iqg6m LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <h2 class="LeaderBoardCard_lbcTitle___WI9J">
+             Blocks
+            </h2>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoadTeamCard_lbtc__UM1T5" data-show-padding="true">
+             <table class="LeaderBoadTeamCard_lbtcTable__gmmZz">
+              <tbody>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612747/">
+                  Los Angeles Lakers
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 13
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 2
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612763/">
+                  Memphis Grizzlies
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 10
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 3
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612738/">
+                  Boston Celtics
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 9
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 4
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612765/">
+                  Detroit Pistons
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 8
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 4
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612760/">
+                  Oklahoma City Thunder
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 8
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ LeaderBoardWithButtons_lbwbCardGrid__Iqg6m LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <h2 class="LeaderBoardCard_lbcTitle___WI9J">
+             Steals
+            </h2>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoadTeamCard_lbtc__UM1T5" data-show-padding="true">
+             <table class="LeaderBoadTeamCard_lbtcTable__gmmZz">
+              <tbody>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612744/">
+                  Golden State Warriors
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 14
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612764/">
+                  Washington Wizards
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 14
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 3
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612737/">
+                  Atlanta Hawks
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 12
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 4
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612748/">
+                  Miami Heat
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 11
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 4
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612757/">
+                  Portland Trail Blazers
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 11
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ LeaderBoardWithButtons_lbwbCardGrid__Iqg6m LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <h2 class="LeaderBoardCard_lbcTitle___WI9J">
+             Field Goal Percentage
+            </h2>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoadTeamCard_lbtc__UM1T5" data-show-padding="true">
+             <table class="LeaderBoadTeamCard_lbtcTable__gmmZz">
+              <tbody>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612743/">
+                  Denver Nuggets
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 61.7
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 2
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612739/">
+                  Cleveland Cavaliers
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 54.1
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 3
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612753/">
+                  Orlando Magic
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 52.3
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 4
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612747/">
+                  Los Angeles Lakers
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 51.8
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 5
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612742/">
+                  Dallas Mavericks
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 51.3
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ LeaderBoardWithButtons_lbwbCardGrid__Iqg6m LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <h2 class="LeaderBoardCard_lbcTitle___WI9J">
+             Three Pointers Made
+            </h2>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoadTeamCard_lbtc__UM1T5" data-show-padding="true">
+             <table class="LeaderBoadTeamCard_lbtcTable__gmmZz">
+              <tbody>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612750/">
+                  Minnesota Timberwolves
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 22
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 2
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612739/">
+                  Cleveland Cavaliers
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 20
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 2
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612748/">
+                  Miami Heat
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 20
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 4
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612743/">
+                  Denver Nuggets
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 18
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 5
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612766/">
+                  Charlotte Hornets
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 17
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ LeaderBoardWithButtons_lbwbCardGrid__Iqg6m LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <h2 class="LeaderBoardCard_lbcTitle___WI9J">
+             Three Point Percentage
+            </h2>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoadTeamCard_lbtc__UM1T5" data-show-padding="true">
+             <table class="LeaderBoadTeamCard_lbtcTable__gmmZz">
+              <tbody>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612743/">
+                  Denver Nuggets
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 51.4
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 2
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612739/">
+                  Cleveland Cavaliers
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 47.6
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 3
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612746/">
+                  LA Clippers
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 46.7
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 4
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612748/">
+                  Miami Heat
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 46.5
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 5
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612747/">
+                  Los Angeles Lakers
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 45.7
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ LeaderBoardWithButtons_lbwbCardGrid__Iqg6m LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <h2 class="LeaderBoardCard_lbcTitle___WI9J">
+             Free Throw Percentage
+            </h2>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoadTeamCard_lbtc__UM1T5" data-show-padding="true">
+             <table class="LeaderBoadTeamCard_lbtcTable__gmmZz">
+              <tbody>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 1
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612746/">
+                  LA Clippers
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 91.3
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 2
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612742/">
+                  Dallas Mavericks
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 90.9
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 3
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612743/">
+                  Denver Nuggets
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 89.5
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 4
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612763/">
+                  Memphis Grizzlies
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 88.0
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td class="LeaderBoadTeamCard_lbtcTableCell__RJFMA">
+                 5
+                 <!-- -->
+                 .
+                </td>
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612758/">
+                  Sacramento Kings
+                 </a>
+                </td>
+                <td class="LeaderBoardWithButtons_lbwbCardValue__5LctQ">
+                 87.5
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+          </div>
+         </div>
+        </section>
+        <section class="Block_block__62M07 relative" data-has-ad-container="false" data-has-carousel="false" data-has-container="true" data-has-logo="false" data-has-nested-blocks="false" data-has-title="true" data-is-nested-block="false">
+         <div class="h-4">
+          <div class="StatsSearch_base__t_qta hidden md:block absolute right-0 py-3 px-5 w-1/2">
+           <label>
+            <p class="Text_text__I2GnQ StatsSearch_label__EF_UL">
+            </p>
+            <input class="StatsSearch_input__DzZ3G" placeholder="Search for a Player or Team Shotchart" type="search" value=""/>
+           </label>
+          </div>
+         </div>
+         <div class="Block_blockContent__6iJ_n">
+          <div class="Block_titleContainerBetween__0GYet">
+           <div class="Block_flexAd__oXSF4">
+            <h1 class="Block_blockTitleText__tX1TF">
+             Shotchart Search
+            </h1>
+           </div>
+          </div>
+          <div>
+           <div class="StatsSearch_base__t_qta p-0 md:hidden">
+            <label>
+             <p class="Text_text__I2GnQ StatsSearch_label__EF_UL">
+             </p>
+             <input class="StatsSearch_input__DzZ3G" placeholder="Search for a Player or Team Shotchart" type="search" value=""/>
+            </label>
+           </div>
+           <p>
+            Check out the wide variety of shot charts available - shot plot, hex map, shot zones, heat map, stream - to visualize some incredible shooting performances.
+           </p>
+           <div class="flex flex-col md:flex-row mt-3">
+            <div class="bg-black md:w-1/2">
+             <img alt="Shotchart image" class="ShotchartSearch_image__iWXU4 h-full w-full object-cover" loading="lazy" src="https://stats-prod.nba.com/wp-content/uploads/sites/65/2024/10/shotchart-boston-29-3s-241022.jpg"/>
+            </div>
+            <div class="flex flex-col justify-evenly mt-3 md:w-1/2 md:ml-10 md:mt-0">
+             <div class="shadow-md rounded p-3">
+              <a class="Anchor_anchor__cSc3P Link_styled__okbXW" data-has-children="true" data-has-more="false" data-is-external="false" href="https://bit.ly/4hgHA9V" rel="noopener noreferrer nofollow" target="_blank">
+               In the 2024-25 season opener, Boston tied the NBA record for 3-pointers made in a game with 29 makes on 61 attempts (47.5%) in the Celtics' 132-109 win over the Knicks on Oct. 22, 2024.
+              </a>
+             </div>
+             <div class="shadow-md rounded p-3">
+              <a class="Anchor_anchor__cSc3P Link_styled__okbXW" data-has-children="true" data-has-more="false" data-is-external="false" href="https://bit.ly/4aP5uoY" rel="noopener noreferrer nofollow" target="_blank">
+               Luka Doncic posted the highest-scoring NBA game since Kobe Bryant's 81 (Jan. 22, 2006) when he scored 73 points (25-33 FG, 8-13 3P, 15-16 FT) in Dallas' 148-143 win over Atlanta on Jan. 26, 2024.
+              </a>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </section>
+        <div class="Tidbit_tidbitBlock__peEzr">
+         <h3 class="Tidbit_title__jrHwj">
+          In Boston's season-opener, Jayson Tatum (14-18 FG, 8-11 3P) became the first player in NBA history to record 35+ points, 10+ assists, and hit 8+ 3s while shooting at least 75% from the field in a game
+         </h3>
+         <div class="Tidbit_social___RO_q">
+          <a class="Anchor_anchor__cSc3P Tidbit_socialLink__4zezO" data-has-children="true" data-has-more="false" data-is-external="false" href="http://www.facebook.com/sharer/sharer.php?u=https://go.nba.com/w05m&amp;amp;title=Player Stats: 2021 NBA Finals" rel="noopener noreferrer nofollow" target="_blank">
+           <svg aria-label="Facebook Icon Button" class="Tidbit_socialIcon__RxiOT" height="22" viewbox="0 0 23 22" width="23" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22.1 11.0C22.1 4.9 17.1 0 11.0 0S0 4.9 0 11.0C0 16.5 4.0 21.1 9.3 22v-7.7h-2.8v-3.1h2.8V8.6c0-2.7 1.6-4.3 4.1-4.3 1.2 0 2.4.216 2.4.216v2.7H14.6c-1.3 0-1.8.853-1.8 1.7v2.0h3.0l-.49 3.2h-2.5V22c5.2-.83 9.3-5.4 9.3-10.9" fill="currentColor" fill-rule="evenodd">
+            </path>
+           </svg>
+          </a>
+          <a class="Anchor_anchor__cSc3P Tidbit_socialLink__4zezO" data-has-children="true" data-has-more="false" data-is-external="false" href="https://twitter.com/intent/tweet?url=https://go.nba.com/w05m&amp;amp;via=nbastats&amp;amp;text=Player Stats: 2021 NBA Finals" rel="noopener noreferrer nofollow" target="_blank">
+           <svg aria-label="Twitter Icon Button" class="Tidbit_socialIcon__RxiOT" height="22" viewbox="0 0 1200 1227" width="22" xmlns="http://www.w3.org/2000/svg">
+            <path d="M714.2,519.3L1160.9,0H1055L667.1,450.9L357.3,0H0l468.5,681.8L0,1226.4h105.9l409.6-476.2l327.2,476.2H1200 L714.2,519.3L714.2,519.3z M569.2,687.8l-47.5-67.9L144,79.7h162.6l304.8,436l47.5,67.9l396.2,566.7H892.5L569.2,687.8L569.2,687.8z " fill="currentColor" fill-rule="nonzero">
+            </path>
+           </svg>
+          </a>
+         </div>
+         <a class="Anchor_anchor__cSc3P Tidbit_statLink__UrV44 Link_styled__okbXW" data-has-children="true" data-has-more="false" data-is-external="false" href="/game/nyk-vs-bos-0022400061/box-score">
+          Video Box Score: Celtics 132, Knicks 109
+         </a>
+        </div>
+        <section class="Block_block__62M07 WeeklyStatsSpotlight_wss__0rqUe" data-has-ad-container="true" data-has-carousel="false" data-has-container="true" data-has-logo="false" data-has-nested-blocks="false" data-has-title="true" data-is-nested-block="false">
+         <div class="Block_blockContent__6iJ_n">
+          <div class="Block_titleContainerBetween__0GYet">
+           <div class="Block_flexAd__oXSF4">
+            <h1 class="Block_blockTitleText__tX1TF">
+             Weekly Stats Spotlight
+            </h1>
+           </div>
+           <div class="Block_blockAd__1Q_77">
+            <a class="Anchor_anchor__cSc3P Block_blockTitleLink___pjNR" data-has-children="false" data-has-more="true" data-is-external="false" href="/stats/spotlightarchive">
+             Stats Spotlight Archive
+            </a>
+           </div>
+          </div>
+          <div class="WeeklyStatsSpotlight_inner__qL6GI">
+           <div class="WeeklyStatsSpotlight_content__Kp8Tv">
+            <div class="WeeklyStatsSpotlight_imageBg__5XQmk">
+             <img alt="NBA Milestone Watch for 2024-25 Image" class="WeeklyStatsSpotlight_image__b0yV9" loading="lazy" src="https://stats-prod.nba.com/wp-content/uploads/sites/65/2024/10/durant-lebron-1080-2177086038.jpg"/>
+            </div>
+            <h2 class="WeeklyStatsSpotlight_title__c5AjC">
+             NBA Milestone Watch for 2024-25
+            </h2>
+            <div class="WeeklyStatsSpotlight_hiddenList__H4CSp">
+             A closer look at notable player and team-by-team statistical milestones that could occur the 2024-25 NBA season.
+             <br/>
+             <br/>
+             <ul>
+              <li>
+               <a href="https://www.nba.com/news/nba-stats-milestones-2024-25">
+                23 Key NBA Milestones to Watch for in 2024-25
+               </a>
+              </li>
+              <li>
+               <a href="https://www.nba.com/news/2024-25-storylines-index">
+                24 Key Storylines Before 2024-25 season
+               </a>
+              </li>
+              <li>
+               <a href="https://www.nba.com/2024-25-season-preview/teams">
+                2024-25 Team Previews
+               </a>
+              </li>
+              <li>
+               <a href="https://www.nba.com/news/2024-25-nba-gm-survey">
+                2025-25 NBA.com GM Survey
+               </a>
+              </li>
+              <li>
+               <a href="https://www.nba.com/2024-25-season-preview">
+                NBA.com Season Preview Hub
+               </a>
+              </li>
+             </ul>
+            </div>
+           </div>
+           <div class="WeeklyStatsSpotlight_hiddenDescription__svLgw">
+            A closer look at notable player and team-by-team statistical milestones that could occur the 2024-25 NBA season.
+            <br/>
+            <br/>
+            <ul>
+             <li>
+              <a href="https://www.nba.com/news/nba-stats-milestones-2024-25">
+               23 Key NBA Milestones to Watch for in 2024-25
+              </a>
+             </li>
+             <li>
+              <a href="https://www.nba.com/news/2024-25-storylines-index">
+               24 Key Storylines Before 2024-25 season
+              </a>
+             </li>
+             <li>
+              <a href="https://www.nba.com/2024-25-season-preview/teams">
+               2024-25 Team Previews
+              </a>
+             </li>
+             <li>
+              <a href="https://www.nba.com/news/2024-25-nba-gm-survey">
+               2025-25 NBA.com GM Survey
+              </a>
+             </li>
+             <li>
+              <a href="https://www.nba.com/2024-25-season-preview">
+               NBA.com Season Preview Hub
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+         </div>
+        </section>
+        <section class="Block_block__62M07" data-has-ad-container="false" data-has-carousel="false" data-has-container="true" data-has-logo="false" data-has-nested-blocks="false" data-has-title="false" data-is-nested-block="false">
+         <div class="Block_blockContent__6iJ_n">
+          <div class="StatsPlayerNews_spn__a2IF9">
+           <div class="StatsPlayerNews_top__g5Gw0">
+            <div class="StatsPlayerNews_inner__65yYY">
+             <h1>
+              Player News
+              <span class="StatsPlayerNews_roto__nC4gM">
+               Provided by Rotowire
+              </span>
+             </h1>
+            </div>
+            <a class="Anchor_anchor__cSc3P StatsPlayerNews_link__uXzD9 Link_styled__okbXW" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/fantasynews/">
+             See all Player News
+            </a>
+           </div>
+          </div>
+          <div class="StatsPlayerNews_bot__e9AMi">
+           <section class="StatsPlayerNewsCard_main__9T_T7">
+            <div class="StatsPlayerNewsCard_profileLink__i50BF">
+             <a class="Anchor_anchor__cSc3P" data-has-children="true" data-has-more="false" data-is-external="false" href="/stats/player/1641754/" title="View Stats Profile">
+              <img alt="undefined Headshot" class="PlayerImage_image__wH_YX StatsPlayerNewsCard_playerImage__EVkNU PlayerImage_round__bIjPr" loading="lazy" src="https://cdn.nba.com/headshots/nba/latest/260x190/1641754.png"/>
+             </a>
+            </div>
+            <div class="StatsPlayerNewsCard_content__GL3Fk">
+             <div class="StatsPlayerNewsCard_inner__kzFjf news-category">
+              <div>
+               <span class="StatsPlayerNewsCard_statsLink__ExyA4">
+                <a class="Anchor_anchor__cSc3P" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1641754/" title="View Stats Profile">
+                 Seth Lundy
+                </a>
+               </span>
+               <span class="StatsPlayerNewsCard_statsLink__ExyA4">
+                ATL
+               </span>
+              </div>
+              <div class="StatsPlayerNewsCard_injury__l15Hw news-injury">
+               Injured
+              </div>
+             </div>
+             <div>
+              <p class="StatsPlayerNewsCard_caption__eG5yH">
+               Another absence coming
+              </p>
+             </div>
+             <div>
+              <span class="StatsPlayerNewsCard_pub__5LbDB">
+               11/09/2024 1:08:02 PM
+              </span>
+             </div>
+            </div>
+           </section>
+           <section class="StatsPlayerNewsCard_main__9T_T7">
+            <div class="StatsPlayerNewsCard_profileLink__i50BF">
+             <a class="Anchor_anchor__cSc3P" data-has-children="true" data-has-more="false" data-is-external="false" href="/stats/player/1629631/" title="View Stats Profile">
+              <img alt="undefined Headshot" class="PlayerImage_image__wH_YX StatsPlayerNewsCard_playerImage__EVkNU PlayerImage_round__bIjPr" loading="lazy" src="https://cdn.nba.com/headshots/nba/latest/260x190/1629631.png"/>
+             </a>
+            </div>
+            <div class="StatsPlayerNewsCard_content__GL3Fk">
+             <div class="StatsPlayerNewsCard_inner__kzFjf news-category">
+              <div>
+               <span class="StatsPlayerNewsCard_statsLink__ExyA4">
+                <a class="Anchor_anchor__cSc3P" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1629631/" title="View Stats Profile">
+                 De'Andre Hunter
+                </a>
+               </span>
+               <span class="StatsPlayerNewsCard_statsLink__ExyA4">
+                ATL
+               </span>
+              </div>
+              <div class="StatsPlayerNewsCard_injury__l15Hw news-injury">
+               Injured
+              </div>
+             </div>
+             <div>
+              <p class="StatsPlayerNewsCard_caption__eG5yH">
+               Another absence coming
+              </p>
+             </div>
+             <div>
+              <span class="StatsPlayerNewsCard_pub__5LbDB">
+               11/09/2024 1:04:57 PM
+              </span>
+             </div>
+            </div>
+           </section>
+           <section class="StatsPlayerNewsCard_main__9T_T7">
+            <div class="StatsPlayerNewsCard_profileLink__i50BF">
+             <a class="Anchor_anchor__cSc3P" data-has-children="true" data-has-more="false" data-is-external="false" href="/stats/player/202711/" title="View Stats Profile">
+              <img alt="undefined Headshot" class="PlayerImage_image__wH_YX StatsPlayerNewsCard_playerImage__EVkNU PlayerImage_round__bIjPr" loading="lazy" src="https://cdn.nba.com/headshots/nba/latest/260x190/202711.png"/>
+             </a>
+            </div>
+            <div class="StatsPlayerNewsCard_content__GL3Fk">
+             <div class="StatsPlayerNewsCard_inner__kzFjf news-category">
+              <div>
+               <span class="StatsPlayerNewsCard_statsLink__ExyA4">
+                <a class="Anchor_anchor__cSc3P" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/202711/" title="View Stats Profile">
+                 Bojan Bogdanovic
+                </a>
+               </span>
+               <span class="StatsPlayerNewsCard_statsLink__ExyA4">
+                BRO
+               </span>
+              </div>
+              <div class="StatsPlayerNewsCard_injury__l15Hw news-injury">
+               Injured
+              </div>
+             </div>
+             <div>
+              <p class="StatsPlayerNewsCard_caption__eG5yH">
+               Still out for Saturday
+              </p>
+             </div>
+             <div>
+              <span class="StatsPlayerNewsCard_pub__5LbDB">
+               11/09/2024 12:39:57 PM
+              </span>
+             </div>
+            </div>
+           </section>
+           <section class="StatsPlayerNewsCard_main__9T_T7">
+            <div class="StatsPlayerNewsCard_profileLink__i50BF">
+             <a class="Anchor_anchor__cSc3P" data-has-children="true" data-has-more="false" data-is-external="false" href="/stats/player/203497/" title="View Stats Profile">
+              <img alt="undefined Headshot" class="PlayerImage_image__wH_YX StatsPlayerNewsCard_playerImage__EVkNU PlayerImage_round__bIjPr" loading="lazy" src="https://cdn.nba.com/headshots/nba/latest/260x190/203497.png"/>
+             </a>
+            </div>
+            <div class="StatsPlayerNewsCard_content__GL3Fk">
+             <div class="StatsPlayerNewsCard_inner__kzFjf news-category">
+              <div>
+               <span class="StatsPlayerNewsCard_statsLink__ExyA4">
+                <a class="Anchor_anchor__cSc3P" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/203497/" title="View Stats Profile">
+                 Rudy Gobert
+                </a>
+               </span>
+               <span class="StatsPlayerNewsCard_statsLink__ExyA4">
+                MIN
+               </span>
+              </div>
+             </div>
+             <div>
+              <p class="StatsPlayerNewsCard_caption__eG5yH">
+               Excellent as two-way threat
+              </p>
+             </div>
+             <div>
+              <span class="StatsPlayerNewsCard_pub__5LbDB">
+               11/09/2024 12:35:54 PM
+              </span>
+             </div>
+            </div>
+           </section>
+           <section class="StatsPlayerNewsCard_main__9T_T7">
+            <div class="StatsPlayerNewsCard_profileLink__i50BF">
+             <a class="Anchor_anchor__cSc3P" data-has-children="true" data-has-more="false" data-is-external="false" href="/stats/player/203944/" title="View Stats Profile">
+              <img alt="undefined Headshot" class="PlayerImage_image__wH_YX StatsPlayerNewsCard_playerImage__EVkNU PlayerImage_round__bIjPr" loading="lazy" src="https://cdn.nba.com/headshots/nba/latest/260x190/203944.png"/>
+             </a>
+            </div>
+            <div class="StatsPlayerNewsCard_content__GL3Fk">
+             <div class="StatsPlayerNewsCard_inner__kzFjf news-category">
+              <div>
+               <span class="StatsPlayerNewsCard_statsLink__ExyA4">
+                <a class="Anchor_anchor__cSc3P" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/203944/" title="View Stats Profile">
+                 Julius Randle
+                </a>
+               </span>
+               <span class="StatsPlayerNewsCard_statsLink__ExyA4">
+                MIN
+               </span>
+              </div>
+             </div>
+             <div>
+              <p class="StatsPlayerNewsCard_caption__eG5yH">
+               Strong display in win Friday
+              </p>
+             </div>
+             <div>
+              <span class="StatsPlayerNewsCard_pub__5LbDB">
+               11/09/2024 12:33:57 PM
+              </span>
+             </div>
+            </div>
+           </section>
+           <section class="StatsPlayerNewsCard_main__9T_T7">
+            <div class="StatsPlayerNewsCard_profileLink__i50BF">
+             <a class="Anchor_anchor__cSc3P" data-has-children="true" data-has-more="false" data-is-external="false" href="/stats/player/1630162/" title="View Stats Profile">
+              <img alt="undefined Headshot" class="PlayerImage_image__wH_YX StatsPlayerNewsCard_playerImage__EVkNU PlayerImage_round__bIjPr" loading="lazy" src="https://cdn.nba.com/headshots/nba/latest/260x190/1630162.png"/>
+             </a>
+            </div>
+            <div class="StatsPlayerNewsCard_content__GL3Fk">
+             <div class="StatsPlayerNewsCard_inner__kzFjf news-category">
+              <div>
+               <span class="StatsPlayerNewsCard_statsLink__ExyA4">
+                <a class="Anchor_anchor__cSc3P" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1630162/" title="View Stats Profile">
+                 Anthony Edwards
+                </a>
+               </span>
+               <span class="StatsPlayerNewsCard_statsLink__ExyA4">
+                MIN
+               </span>
+              </div>
+             </div>
+             <div>
+              <p class="StatsPlayerNewsCard_caption__eG5yH">
+               Shines with 37-point display Friday
+              </p>
+             </div>
+             <div>
+              <span class="StatsPlayerNewsCard_pub__5LbDB">
+               11/09/2024 12:32:19 PM
+              </span>
+             </div>
+            </div>
+           </section>
+          </div>
+         </div>
+        </section>
+       </div>
+       <div class="Columns_right__RMqRd">
+        <div class="StatsNightlyDunkScores_ds__rvnm8" data-is-loading="true">
+         <div class="StatsNightlyDunkScores_dsBeta__W9N8N">
+          <span class="StatsNightlyDunkScores_betaTag__egxKh">
+           Beta
+          </span>
+         </div>
+         <div class="StatsNightlyDunkScores_dsTitle__r4r3b">
+          Daily Dunk Score Leaders
+         </div>
+         <div class="StatsNightlyDunkScores_dsGameDateSkeleton__ZVZyK">
+         </div>
+         <div class="StatsNightlyDunkScores_dsTableSkeleton__6Ck3M">
+         </div>
+         <div class="StatsNightlyDunkScores_dsTableSkeleton__6Ck3M">
+         </div>
+         <div class="StatsNightlyDunkScores_dsTableSkeleton__6Ck3M">
+         </div>
+        </div>
+        <section class="Block_block__62M07" data-has-ad-container="false" data-has-carousel="false" data-has-container="true" data-has-logo="false" data-has-nested-blocks="false" data-has-title="true" data-is-nested-block="false">
+         <div class="Block_blockContent__6iJ_n">
+          <div class="Block_titleContainerBetween__0GYet">
+           <div class="Block_flexAd__oXSF4">
+            <h1 class="Block_blockTitleText__tX1TF">
+             More Stats
+            </h1>
+           </div>
+          </div>
+          <div class="MaxWidthContainer_mwc__ID5AG LeaderBoard_leaderBoardContainer__2m0HJ" data-ad-slot="false" data-max-width="xl" data-padding="false" id="home_more">
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ w-full LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <a class="Anchor_anchor__cSc3P LeaderBoardCard_lbcLink__GZTl1 Link_styled__okbXW" data-has-children="true" data-has-more="false" data-is-external="false" href="/stats/players/traditional/?PerMode=Totals&amp;sort=PTS&amp;dir=-1">
+             <h2 class="LeaderBoardCard_lbcTitleLink__MXurG">
+              Total Points
+             </h2>
+            </a>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoardPlayerCard_lbpc__UG8WY" data-show-padding="false" data-show-team="false">
+             <table class="LeaderBoardPlayerCard_lbpcTable__q3iZD">
+              <tbody>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1628369/">
+                  Jayson Tatum
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  BOS
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 305
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1630162/">
+                  Anthony Edwards
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  MIN
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 261
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/203999/">
+                  Nikola Jokić
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  DEN
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 260
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ w-full LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <a class="Anchor_anchor__cSc3P LeaderBoardCard_lbcLink__GZTl1 Link_styled__okbXW" data-has-children="true" data-has-more="false" data-is-external="false" href="/stats/players/traditional/?sort=REB&amp;dir=-1&amp;PerMode=Totals">
+             <h2 class="LeaderBoardCard_lbcTitleLink__MXurG">
+              Total Rebounds
+             </h2>
+            </a>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoardPlayerCard_lbpc__UG8WY" data-show-padding="false" data-show-team="false">
+             <table class="LeaderBoardPlayerCard_lbpcTable__q3iZD">
+              <tbody>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1628386/">
+                  Jarrett Allen
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  CLE
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 119
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/203999/">
+                  Nikola Jokić
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  DEN
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 119
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1627734/">
+                  Domantas Sabonis
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  SAC
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 117
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ w-full LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <a class="Anchor_anchor__cSc3P LeaderBoardCard_lbcLink__GZTl1 Link_styled__okbXW" data-has-children="true" data-has-more="false" data-is-external="false" href="/stats/players/traditional/?sort=AST&amp;dir=-1&amp;PerMode=Totals">
+             <h2 class="LeaderBoardCard_lbcTitleLink__MXurG">
+              Total Assists
+             </h2>
+            </a>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoardPlayerCard_lbpc__UG8WY" data-show-padding="false" data-show-team="false">
+             <table class="LeaderBoardPlayerCard_lbpcTable__q3iZD">
+              <tbody>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1629027/">
+                  Trae Young
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  ATL
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 111
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/203999/">
+                  Nikola Jokić
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  DEN
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 102
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/201935/">
+                  James Harden
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  LAC
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 83
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ w-full LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <a class="Anchor_anchor__cSc3P LeaderBoardCard_lbcLink__GZTl1 Link_styled__okbXW" data-has-children="true" data-has-more="false" data-is-external="false" href="/stats/players/traditional/?sort=BLK&amp;dir=-1&amp;PerMode=Totals">
+             <h2 class="LeaderBoardCard_lbcTitleLink__MXurG">
+              Total Blocks
+             </h2>
+            </a>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoardPlayerCard_lbpc__UG8WY" data-show-padding="false" data-show-team="false">
+             <table class="LeaderBoardPlayerCard_lbpcTable__q3iZD">
+              <tbody>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1641705/">
+                  Victor Wembanyama
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  SAS
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 33
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1631096/">
+                  Chet Holmgren
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  OKC
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 26
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1631117/">
+                  Walker Kessler
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  UTA
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 24
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ w-full LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <a class="Anchor_anchor__cSc3P LeaderBoardCard_lbcLink__GZTl1 Link_styled__okbXW" data-has-children="true" data-has-more="false" data-is-external="false" href="/stats/players/traditional/?sort=STL&amp;dir=-1&amp;PerMode=Totals">
+             <h2 class="LeaderBoardCard_lbcTitleLink__MXurG">
+              Total Steals
+             </h2>
+            </a>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoardPlayerCard_lbpc__UG8WY" data-show-padding="false" data-show-team="false">
+             <table class="LeaderBoardPlayerCard_lbpcTable__q3iZD">
+              <tbody>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1630700/">
+                  Dyson Daniels
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  ATL
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 24
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1628369/">
+                  Jayson Tatum
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  BOS
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 18
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1631114/">
+                  Jalen Williams
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  OKC
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 18
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ w-full LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <a class="Anchor_anchor__cSc3P LeaderBoardCard_lbcLink__GZTl1 Link_styled__okbXW" data-has-children="true" data-has-more="false" data-is-external="false" href="/stats/players/traditional/?sort=FG3M&amp;dir=-1&amp;PerMode=Totals">
+             <h2 class="LeaderBoardCard_lbcTitleLink__MXurG">
+              Total 3 Pointers Made
+             </h2>
+            </a>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoardPlayerCard_lbpc__UG8WY" data-show-padding="false" data-show-team="false">
+             <table class="LeaderBoardPlayerCard_lbpcTable__q3iZD">
+              <tbody>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1630162/">
+                  Anthony Edwards
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  MIN
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 50
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1628369/">
+                  Jayson Tatum
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  BOS
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 43
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1630163/">
+                  LaMelo Ball
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  CHA
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 42
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ w-full LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <a class="Anchor_anchor__cSc3P LeaderBoardCard_lbcLink__GZTl1 Link_styled__okbXW" data-has-children="true" data-has-more="false" data-is-external="false" href="/stats/players/boxscores-traditional/?sort=FG3M&amp;dir=1">
+             <h2 class="LeaderBoardCard_lbcTitleLink__MXurG">
+              Most 3PM in a Game
+             </h2>
+            </a>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoardPlayerCard_lbpc__UG8WY" data-show-padding="false" data-show-team="false">
+             <table class="LeaderBoardPlayerCard_lbpcTable__q3iZD">
+              <tbody>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/203081/">
+                  Damian Lillard
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  MIL
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400145/box-score">
+                  10
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1630163/">
+                  LaMelo Ball
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  CHA
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400079/box-score">
+                  9
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1630162/">
+                  Anthony Edwards
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  MIN
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400193/box-score">
+                  9
+                 </a>
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ w-full LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <a class="Anchor_anchor__cSc3P LeaderBoardCard_lbcLink__GZTl1 Link_styled__okbXW" data-has-children="true" data-has-more="false" data-is-external="false" href="/stats/players/boxscores-traditional/?sort=PTS&amp;dir=1">
+             <h2 class="LeaderBoardCard_lbcTitleLink__MXurG">
+              Highest Scoring Game
+             </h2>
+            </a>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoardPlayerCard_lbpc__UG8WY" data-show-padding="false" data-show-team="false">
+             <table class="LeaderBoardPlayerCard_lbpcTable__q3iZD">
+              <tbody>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1631094/">
+                  Paolo Banchero
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  ORL
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400102/box-score">
+                  50
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1630178/">
+                  Tyrese Maxey
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  PHI
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400097/box-score">
+                  45
+                 </a>
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1626157/">
+                  Karl-Anthony Towns
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  NYK
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/game/0022400122/box-score">
+                  44
+                 </a>
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ w-full LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <a class="Anchor_anchor__cSc3P LeaderBoardCard_lbcLink__GZTl1 Link_styled__okbXW" data-has-children="true" data-has-more="false" data-is-external="false" href="/stats/teams/scoring/?sort=PCT_PTS_3PT&amp;dir=-1">
+             <h2 class="LeaderBoardCard_lbcTitleLink__MXurG">
+              Highest % of PTS 3PT
+             </h2>
+            </a>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoadTeamCard_lbtc__UM1T5" data-show-padding="false">
+             <table class="LeaderBoadTeamCard_lbtcTable__gmmZz">
+              <tbody>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612738/">
+                  Boston Celtics
+                 </a>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 45.9
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612766/">
+                  Charlotte Hornets
+                 </a>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 44.2
+                </td>
+               </tr>
+               <tr class="LeaderBoadTeamCard_lbtcTableRow__pJljn">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoadTeamCard_lbtcTableLink__LyoJz" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/team/1610612750/">
+                  Minnesota Timberwolves
+                 </a>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 43.4
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+           <div class="LeaderBoardCard_lbcWrapper__e4bCZ w-full LeaderBoardCard_leaderBoardCategory__vWRuZ">
+            <a class="Anchor_anchor__cSc3P LeaderBoardCard_lbcLink__GZTl1 Link_styled__okbXW" data-has-children="true" data-has-more="false" data-is-external="false" href="/stats/players/catch-shoot/?sort=CATCH_SHOOT_FGA&amp;dir=1">
+             <h2 class="LeaderBoardCard_lbcTitleLink__MXurG">
+              Catch and Shoot FGA
+             </h2>
+            </a>
+            <hr class="LeaderBoardCard_lbcHr__UDY9r"/>
+            <div class="LeaderBoardPlayerCard_lbpc__UG8WY" data-show-padding="false" data-show-team="false">
+             <table class="LeaderBoardPlayerCard_lbpcTable__q3iZD">
+              <tbody>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/203924/">
+                  Jerami Grant
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  POR
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 7.7
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/202691/">
+                  Klay Thompson
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  DAL
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 7.4
+                </td>
+               </tr>
+               <tr class="LeaderBoardPlayerCard_lbpcTableRow___Lod5">
+                <td>
+                 <a class="Anchor_anchor__cSc3P LeaderBoardPlayerCard_lbpcTableLink__MDNgL" data-has-children="false" data-has-more="false" data-is-external="false" href="/stats/player/1629661/">
+                  Cameron Johnson
+                 </a>
+                 <span class="LeaderBoardPlayerCard_lbpcTeamAbbr__fGlx3">
+                  BKN
+                 </span>
+                </td>
+                <td class="text-right font-medium text-xs">
+                 7.1
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+          </div>
+         </div>
+        </section>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
