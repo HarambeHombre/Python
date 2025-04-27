@@ -7,8 +7,8 @@ from selenium.webdriver.common.keys import Keys
 promised_down = 120
 promised_up = 10
 
-TWITTER_EMAIL = "hamebone.100daysofcode@gmail.com"
-TWITTER_PASSWORD = "Acrby&Vje+5$H9x)"
+TWITTER_EMAIL = TWITTER_EMAIL
+TWITTER_PASSWORD = TWITTER_PASSWORD
 
 class InternetSpeedTwitterBot:
     def __init__(self):
@@ -48,7 +48,7 @@ class InternetSpeedTwitterBot:
 
         time.sleep(3)
         verify_input = self.driver.find_element(By.NAME, value="text")
-        verify_input.send_keys("Hamebone1549821", Keys.ENTER)
+        verify_input.send_keys(TWITTER_USERNAME, Keys.ENTER)
 
         time.sleep(3)
         password_input = self.driver.find_element(By.NAME, value="password")
