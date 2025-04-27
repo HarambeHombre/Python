@@ -39,15 +39,15 @@ def save_password():
         messagebox.showinfo(title="Warning", message="Fields cannot be left blank, please enter info into each field.")
     else:
         try:
-            with open("../../../Downloads/password-manager-start/data.json", "r") as data_file:
+            with open("./data.json", "r") as data_file:
                 data = json.load(data_file)
         except FileNotFoundError:
-            with open("../../../Downloads/password-manager-start/data.json", "w") as data_file:
+            with open("./data.json", "w") as data_file:
                 json.dump(new_data, data_file, indent=4)
         else:
             data.update(new_data)
 
-            with open("../../../Downloads/password-manager-start/data.json", "w") as data_file:
+            with open("./data.json", "w") as data_file:
                 json.dump(data, data_file, indent=4)
         finally:
             website_input.delete(0, END)
@@ -56,7 +56,7 @@ def save_password():
 def search():
     website = website_input.get()
     try:
-        with open("../../../Downloads/password-manager-start/data.json", "r") as data_file:
+        with open("./data.json", "r") as data_file:
             data = json.load(data_file)
     except FileNotFoundError:
         messagebox.showinfo(title="Uh oh!", message=f"There is no data file yet.")
@@ -97,7 +97,7 @@ website_input.grid(column=1, row=1, columnspan=2, sticky=W)
 website_input.focus()
 email_input = Entry(width=40)
 email_input.grid(column=1, row=2, columnspan=2, sticky=W)
-email_input.insert(0, "harambeeshombre@gmail.com")
+email_input.insert(0, STATIC_EMAIL)
 password_input = Entry(width=21)
 password_input.grid(column=1, row=3, columnspan=2, sticky=W)
 #-----------------------------------------
