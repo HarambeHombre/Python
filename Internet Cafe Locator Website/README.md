@@ -1,4 +1,4 @@
-# Cafe Directory Application
+# Cafe Directory Application - ![Python](https://img.shields.io/badge/Python-3.10-green)
 The `Cafe Directory Application` is a Flask-based web app that allows users to manage a list of cafes. Users can add new cafes, view a directory of cafes, and delete entries. This app uses SQLAlchemy for database management and Flask-WTF for form handling, with a Bootstrap-powered user interface for an enhanced user experience.
 
 ---
