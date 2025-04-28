@@ -1,4 +1,4 @@
-# NBA Stat Scraper
+# NBA Stat Scraper - ![Python](https://img.shields.io/badge/Python-3.10-green)
 
 **NBA Stat Scraper** is a Python-based application that uses web scraping to fetch and display NBA player statistics. The program scrapes data from the official [NBA Stats](https://www.nba.com/stats) website and outputs relevant tables containing statistical information.
 
